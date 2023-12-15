@@ -29,7 +29,7 @@ const store = new Vuex.Store({
                 },
                 methods: {
                     fetchPrayerTimes() {
-                        axios.get('https://demo.igmg-herford.de/grap.php')
+                        axios.get('https://demo.xxxxxxx')
                             .then(response => {
                                 const data = response.data.Namazvakitleri[0];
                                 this.prayerTimes = {
@@ -49,7 +49,7 @@ const store = new Vuex.Store({
                             });
                     },
                     fetchWeather() {
-                        const apiKey = '4e6519d725b40d44f0e3dd265bc64978';
+                        const apiKey = 'xxxxxxxxxxxxxxx';
                         const city = 'Herford,DE';
                         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=tr`;
                         axios.get(url)
@@ -63,7 +63,7 @@ const store = new Vuex.Store({
                             });
                     },
                     fetchDailyVerse() {
-                        axios.get('https://demo.igmg-herford.de/ekran/gunun_ayeti')
+                        axios.get('https://demo.xxxxxx')
                             .then(response => {
                                 this.dailyVerse = response.data.ayet.gunun_ayeti;
                             })
