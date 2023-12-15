@@ -20,3 +20,5 @@ Süleyman Akata
 E-posta: akata6868@icloud.com
 ## Lisans
 Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atın
+
+![Açıklama](namazekran.png)
