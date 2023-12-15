@@ -1,3 +1,13 @@
+/*
+ * Namaz Vakti Ekran Uygulaması
+ * Yazar: Süleyman Akata
+ * E-posta: akata6868@icloud.com
+ * Lisans: MIT License
+ *
+ * Bu uygulama, namaz vakitleri, hava durumu ve günün ayeti gibi bilgileri gösteren bir ekran uygulamasıdır.
+ * Vue.js ve Vuex kullanılarak geliştirilmiştir.
+ *
+ */
 const store = new Vuex.Store({
                 state: {
                     shouldUpdate: false,
